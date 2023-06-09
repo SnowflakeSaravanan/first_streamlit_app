@@ -1,7 +1,11 @@
 import streamlit
 streamlit.title('My Parents New Healthy Diner')
-streamlit.header('Breakfast Menus🥣')
+streamlit.header('Breakfast Menu🥣')
 streamlit.text('Idly')
 streamlit.text('Dosa')
 streamlit.text('Vada')
 streamlit.text('Poori')
+streamlit.header(Lunch Menu')
+streamlit.text(🍛 Curry Rice)
+streamlit.text(🍙 Rice Ball)
+streamlit.text(🍚 Cooked Rice)
