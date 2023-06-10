@@ -23,3 +23,5 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 
 #Display selected fruits
 streamlit.dataframe(fruits_to_show)
+
+total_calories = sum(calories)
