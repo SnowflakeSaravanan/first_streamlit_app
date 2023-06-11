@@ -1,5 +1,5 @@
 import streamlit
-streamlit.title('My Parents New Healthy Diner')
+streamlit.title('GO Health Club - New Healthy Diner')
 streamlit.header('Breakfast Menu🥣')
 streamlit.text('Idly')
 streamlit.text('Dosa')
@@ -23,5 +23,3 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 
 #Display selected fruits
 streamlit.dataframe(fruits_to_show)
-
-total_calories = sum(calories)
