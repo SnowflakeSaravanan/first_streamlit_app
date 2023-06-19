@@ -57,7 +57,7 @@ if streamlit.button('Get Fruit Load List'):
       streamlit.dataframe(my_data_rows)
 
 #Allow the end user to add a fruit to the list
-add_my_fruit=streamlit.text_input('What fruit would you like to add?', 'apple')
-streamlit.write('Thanks for adding ', add_my_fruit)
+#add_my_fruit=streamlit.text_input('What fruit would you like to add?', 'apple')
+#streamlit.write('Thanks for adding ', add_my_fruit)
 
 #my_cur.execute("insert into PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST values ('from streamlit')")
